@@ -1,7 +1,6 @@
 ﻿using System.Text;
-using HomeWorkCSpro_04_1_Employee_2_City;
 
-namespace HomeWorkCSpro_04_1_Employee
+namespace HomeWorkCSpro_04_1_Employee_2_City
 {
     internal class Program
     {
@@ -37,6 +36,19 @@ namespace HomeWorkCSpro_04_1_Employee
             Console.WriteLine(city1 == city2);
             Console.WriteLine(city1 > city2);
             Console.WriteLine(city1 < city2);
+
+            Console.WriteLine("------------------------------");
+            CreditCard card1 = new CreditCard("1111 2222 3333 4444", "Petrenko Vladislav", "123", 10000);
+            CreditCard card2 = new CreditCard("5555 6666 7777 8888", "Shevchenko Taras", "456", 15000);
+
+            card1 += 5000;
+            card2 -= 3000;
+
+            Console.WriteLine(card1);
+            Console.WriteLine(card2);
+
+            Console.WriteLine("CVC коди " + (card1 == card2 ? "однакові" : "різні"));
+            Console.WriteLine("Більше грошей на картці " + (card1 > card2 ? card1.HolderName : card2.HolderName));
         }
     }
 }

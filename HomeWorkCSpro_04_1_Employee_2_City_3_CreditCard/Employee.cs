@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace HomeWorkCSpro_04_1_Employee
+namespace HomeWorkCSpro_04_1_Employee_2_City
 {
     internal class Employee
     {
