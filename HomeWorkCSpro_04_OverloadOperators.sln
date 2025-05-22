@@ -1,9 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.13.35931.197 d17.13
+VisualStudioVersion = 17.13.35931.197
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HomeWorkCSpro_04_1_Employee", "HomeWorkCSpro_04_1_Employee\HomeWorkCSpro_04_1_Employee.csproj", "{E6F3A05F-DC7A-48A4-BD06-AFED2FA6617E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HomeWorkCSpro_04_1_Employee_2_City", "HomeWorkCSpro_04_1_Employee\HomeWorkCSpro_04_1_Employee_2_City.csproj", "{E6F3A05F-DC7A-48A4-BD06-AFED2FA6617E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
