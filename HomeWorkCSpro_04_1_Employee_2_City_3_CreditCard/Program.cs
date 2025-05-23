@@ -38,11 +38,11 @@ namespace HomeWorkCSpro_04_1_Employee_2_City
             Console.WriteLine(city1 < city2);
 
             Console.WriteLine("------------------------------");
-            CreditCard card1 = new CreditCard("1111 2222 3333 4444", "Petrenko Vladislav", "123", 10000);
-            CreditCard card2 = new CreditCard("5555 6666 7777 8888", "Shevchenko Taras", "456", 15000);
+            CreditCard card1 = new CreditCard("1111 2222 3333 4444", "Petrenko Vladislav", "123", 10000.45m);
+            CreditCard card2 = new CreditCard("5555   6666 7777 8888", "Shevchenko Taras", "456", 15000.7m);
 
-            card1 += 5000;
-            card2 -= 3000;
+            card1 += 5000m;
+            card2 -= 3000m;
 
             Console.WriteLine(card1);
             Console.WriteLine(card2);
